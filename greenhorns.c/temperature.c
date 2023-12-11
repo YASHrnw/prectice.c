@@ -3,11 +3,11 @@
 int main()
 {
 
-    int f;
-    printf("enter temp f:");
-    scanf("%d",&f);
-
-    printf("f %d", f * (9 / 5) + 32);
+   float f, c;
+  printf("enter temp ");
+  scanf("%f", &c);
+  f = (c * 9 / 5) + 32;
+  printf("%f", f);
 
     return 0;
 }
