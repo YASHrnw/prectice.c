@@ -9,10 +9,7 @@ int divide();
 int main()
 {
 
-    // for (op = 0; op >= 7; op++)
-    // {
-    //     /* code */
-    // }
+
 
     int u1;
 
