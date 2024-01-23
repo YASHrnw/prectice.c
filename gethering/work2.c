@@ -1,4 +1,4 @@
-#include<stdio.h>               // UDF thi array no sum
+#include<stdio.h>              
 int sum_element(int n);
 
 int main(){
