@@ -43,7 +43,7 @@ int main()
             break;
         }
 
-    } while (u1 <=4);
+    } while (u1 <=5);
 
 
     
