@@ -1,31 +1,33 @@
+// check whether a string is palindrome or not.
+//1.strlen 2.strupr 3.strlwr 4.strrev 5.strcpy 6.strcat 7.strcmp
 #include<stdio.h>
 #include<string.h>
+int main(){
+     char str[20],str2[20];
+     printf("enetr name:");
+     gets(str);
+     printf("name is:");
+     puts(str);
 
-int main (){
+     printf("enetr name 2:");
+     gets(str2);
 
-    char string[20];
-    int i,length;
-    int flag = 0;
-    printf("Enter a string : ");
-    scanf("%s",string);
-
-    length = strlen(string);
-    for ( i = 0; i < length/2; i++)
-    {
-        if (string[i] != string[length-i-1])
-        {
-            flag = 1;
-        }
-        
-    }if (flag)
-        {
-            printf("%s is not a palindrome\n",string);
-        }else{
-            printf("%s is a palindrome\n",string);
-        }
     
+     printf("\n upper of string is %s",strupr(str));
+     printf("\n length of string is %d",strlen(str));
+     printf("\n lower of string is %s",strlwr(str));
+
+     printf("\n after string compare: %d",strcmp(str,str2));
+      
+     strcat(str,"panchal");
+     printf("\n after marge string is %s",str);
+
+     strcpy(str,"pl");
+     printf("\n after copy name is %s",str);
+
+     printf("\n reverse of string is %s",strrev(str));
 
 
 
     return 0;
-}        
+}
